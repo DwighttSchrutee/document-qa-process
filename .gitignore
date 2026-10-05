@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# installed by `make setup` / `make models` (large binaries and model files)
+tools/
+models/
+
+# documents, database, OCR cache, uploads, reviews, page images – client data, never committed
+data/
+data_test/
+
+# local scratch work and archives
+scratch/
+Archive.zip
+*.zip
+
+# generated outputs
+bench/out/
+eval/cache_understand.json
+eval/retrieval_*.json
+eval/report.md
+
+# macOS
+.DS_Store
+__MACOSX/
